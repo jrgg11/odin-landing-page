@@ -7,7 +7,7 @@ body{
     display: flex;
     padding: 0 16px;
 }
-p{
+.header p{
     color: white;
     font-size: 24px;
     font: "Roboto";
@@ -16,12 +16,12 @@ p{
 .hlinks {
     display: flex;
     align-items: center ;
+    flex: 1;
     
 }
 .right{
     display: flex;
     justify-content: end;
-    flex: 1;
 }
 .left {
     display: flex;
@@ -46,6 +46,7 @@ h1
 {
     color: white;
     font-weight: 800;
+    flex: 1;
 }
 h2
 {
@@ -53,6 +54,7 @@ h2
     font-weight: 900;
     font-size:1.1cm;
     margin: 0;
+    flex: 1;
 }
 
 .hero p {
@@ -61,6 +63,7 @@ h2
     flex-wrap: wrap;
     color: #e5e7eb;
     margin: 0;
+    flex: 1;
 }
 .left1{
     display: flex;
@@ -76,5 +79,8 @@ h2
     height: 30px;
     border-radius: 10px;
     border: 0;
+    flex: auto;
+}
+.hero img{
     flex: auto;
 }

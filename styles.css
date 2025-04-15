@@ -40,6 +40,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    padding: 18px;
 }
 h1
 {
@@ -51,14 +52,24 @@ h2
     color: white;
     font-weight: 900;
     font-size:1.1cm;
+    margin: 0;
 }
 
 .hero p {
-    font-size: large;
+    font-size: 100%;
     width: 350px;
     flex-wrap: wrap;
-    
+    color: #e5e7eb;
+    margin: 0;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
 }
 
-.left1{
+.hero button{
+    background-color: #3882f6;
+    color:white;
+    font-weight: bold;
+    width: 100px;
 }

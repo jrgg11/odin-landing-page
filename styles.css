@@ -84,3 +84,28 @@ h2
 .hero img{
     flex: auto;
 }
+
+.random{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.random .randomtext h2{
+    color: black;
+    margin-bottom: 16px;
+}
+
+.random .images div{
+    border:3px solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    gap: 16px;
+}
+.random .images{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}

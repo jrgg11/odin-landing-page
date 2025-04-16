@@ -98,11 +98,18 @@ h2
     margin-bottom: 16px;
 }
 
-.random .images div{
+.random .images img{
     border:3px solid;
     border-color: #3882f6;
     border-radius: 10px;
     gap: 16px;
+    width: 150px;
+    height: 150px;
+}
+.random .images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .random .images{
     display: flex;

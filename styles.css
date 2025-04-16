@@ -113,6 +113,12 @@ h2
 }
 .random .images{
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
     gap: 64px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
 }

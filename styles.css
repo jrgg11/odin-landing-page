@@ -121,4 +121,22 @@ h2
 .quote{
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    align-items: center;
+    padding: 40px;
+}
+.quote .moretext p{
+    font-style: ;
+    height: 120px;
+    width: 500px;
+    flex: auto;
+    flex-wrap: wrap;
+}
+.quote .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 450px;
+    font-weight: bold;
 }

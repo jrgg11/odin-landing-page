@@ -19,15 +19,15 @@ body{
     flex: 1;
     
 }
-.right{
+.header .right{
     display: flex;
     justify-content: end;
 }
-.left {
+.header .left {
     display: flex;
     flex: 1;
 }
-a{
+.header a{
     color: white;
     margin: 16px;
     text-decoration: none;
@@ -42,13 +42,13 @@ a{
     gap: 100px;
     padding: 18px;
 }
-h1
+.header h1
 {
     color: white;
     font-weight: 800;
     flex: 1;
 }
-h2
+.hero h2
 {
     color: white;
     font-weight: 900;
@@ -65,7 +65,7 @@ h2
     margin: 0;
     flex: 1;
 }
-.left1{
+.hero .left{
     display: flex;
     flex-direction: column;
     gap:12px;
@@ -93,7 +93,7 @@ h2
     margin: 20px;
 }
 
-.random .randomtext h2{
+.random .text h2{
     color: black;
     margin-bottom: 16px;
 }
@@ -126,8 +126,8 @@ h2
     align-items: center;
     padding: 40px;
 }
-.quote .moretext p{
-    font-style: ;
+.quote .text p{
+    font-style: italic;
     height: 120px;
     width: 500px;
     flex: auto;

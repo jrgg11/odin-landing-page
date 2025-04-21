@@ -19,7 +19,7 @@ body{
     flex: 1;
     
 }
-.header .right{
+.right{
     display: flex;
     justify-content: end;
 }
@@ -139,4 +139,33 @@ body{
     justify-content: end;
     margin-left: 450px;
     font-weight: bold;
+}
+
+.notification {
+    display: flex;
+    background: #3882f6;
+    width: 800px;
+    height: 75px;
+    margin: 36px;
+    margin-left: 550px;
+}
+
+.notification .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.notification .title{
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.notification .text
+{
+    color: #e5e7eb;
+}
+
+.notification .left p{
+    margin: 0;
 }

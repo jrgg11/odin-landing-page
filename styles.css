@@ -13,7 +13,7 @@ body{
     font: "Roboto";
     font-weight: 800;
 }
-.hlinks {
+.links {
     display: flex;
     align-items: center ;
     flex: 1;
@@ -148,6 +148,8 @@ body{
     height: 75px;
     margin: 36px;
     margin-left: 550px;
+    gap: 100px;
+    border-radius: 5px;
 }
 
 .notification .left{
@@ -168,4 +170,22 @@ body{
 
 .notification .left p{
     margin: 0;
+}
+.notification .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification .right button{
+    background-color: #3882f6;
+    color:white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    flex: auto;
 }

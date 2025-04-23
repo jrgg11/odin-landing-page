@@ -140,21 +140,28 @@ body{
     margin-left: 450px;
     font-weight: bold;
 }
-
+.something{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
 .notification {
     display: flex;
     background: #3882f6;
     width: 800px;
     height: 75px;
-    margin: 36px;
-    margin-left: 550px;
-    gap: 100px;
+    gap: 90px;
     border-radius: 5px;
+    
 }
 
 .notification .left{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 24px;
 }
 
 .notification .title{
